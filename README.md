@@ -1,5 +1,5 @@
 # Calculadora 
 
-### desenvolvida com Javascript, HTML e Css. 
+### Desenvolvida com Javascript, HTML e Css. 
 
-#### desenvolvido por Antonio Daivan 
+#### Desenvolvido por Antonio Daivan 
