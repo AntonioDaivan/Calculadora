@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&family=Roboto+Slab&display=swap');    
+
+.body{
+  text-align: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+}
+
+h1{
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  color: black;
+}
+
+.btn{
+  margin: 2px;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 60px;
+  height: 60px;
+}
+
+.botaozero{
+    width: 125px;
+    height: 55px;
+    border-radius: 30px;
+    background-color: black;
+    margin: 2px;
+    margin-right: 2px;
+    border: 1px solid rgb(0, 61, 3);
+}
+
+.botaoigual{
+    width: 125px;
+    height: 55px;
+    border-radius: 30px;
+    background-color: black;
+    margin: 2px;
+    margin-right: 2px;
+    border: 1px solid rgb(0, 61, 3);
+}
+
+
+.calculadora{
+  background-color: rgb(0, 0, 0);
+  border: 2px solid rgb(0, 61, 3);
+  padding-bottom: 20px;
+  width: 300px;
+  margin: auto;
+  border-radius: 10px ;
+}
+
+.entrada{
+  padding-top: 20px;  
+}
+
+.tela{
+  width: 240px;
+  height: 30px;
+  text-align: right;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  font-family: 'Roboto Mono', monospace;
+  background-color: white;
+  color: black;
+  border: 2px solid rgb(0, 61, 3);
+  border-top: 0;
+}
+
+.resultado{
+  width: 240px;
+  height: 60px;
+  text-align: right;
+  color: black;
+  background-color: white;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 50px;
+  border: 2px solid rgb(0, 61, 3);
+  border-bottom: 0;
+}
+
+footer{
+  margin-top: 65px;
+}
+.btn-dark{
+  width: 150px;
+  height: 40px;
+}
