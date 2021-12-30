@@ -58,7 +58,7 @@ function atribuirEventos() {
 // Adiciona o número na tela
 function inserirNumeroNaTela() {
     // Se o valor na tela não for um número ou for 0, substitui pelo número/valor do botão
-    if (isNaN(TELA.value) || (TELA.value == 0)) {TELA.value = event.target.textContent;} 
+    if (isNaN(TELA.value) || (TELA.value === 0) || (TELA.value === "0")) {TELA.value = event.target.textContent;} 
     else {TELA.value += event.target.textContent;}
     
 }
@@ -70,19 +70,13 @@ function inserirPonto (){
 }
 
 
-function somar(valor1, valor2){ // Função para somar 
-    return valor1 + valor2
-}
+const somar = (valor1, valor2) => valor1 + valor2; // Função para somar 
 
-function subtrair(valor1, valor2){ // Função para subtrair
-    return valor1 - valor2
-}
+const subtrair = (valor1, valor2) => valor1 - valor2 // Função para subtrair
 
-function multiplicar(valor1, valor2){ // função parar multiplicar 
-    return valor1 * valor2
-}
+const multiplicar = (valor1, valor2) => valor1 * valor2 // função parar multiplicar 
 
-function dividir(valor1, valor2){ // Função para dividir
+const dividir = (valor1, valor2) => { // Função para dividir
     if(valor2 == 0){alert("Erro, divisão por 0") // essa parte verifica se o divisor é 0, se for, alertará um erro pois qualquer número dividido por 0 resulta num número infinito.
     return 0}
     else {return valor1 / valor2}
