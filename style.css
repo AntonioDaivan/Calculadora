@@ -3,7 +3,7 @@
 .body{
   text-align: center;
   align-items: center;
-  background: linear-gradient(rgb(0, 100, 0), rgb(10, 10, 10));
+  background: linear-gradient(to left, rgb(0, 100, 0), rgb(5, 43, 0));
   padding: 2px;
 }
 
